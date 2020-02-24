@@ -1,5 +1,7 @@
 # React Notifications
 
+This is a fork with fixed `Object.assign` for compatibility with IE11
+
 [<img src="./screenshot.png" style="width: 100%;" />](http://minhtranite.github.io/react-notifications)
 
 ## Installation

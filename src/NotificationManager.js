@@ -32,9 +32,9 @@ class NotificationManager extends EventEmitter {
       timeOut: 5000
     };
     if (notify.priority) {
-      this.listNotify.unshift(Object.assign(defaultNotify, notify));
+      this.listNotify.unshift({ ...defaultNotify, ...notify });
     } else {
-      this.listNotify.push(Object.assign(defaultNotify, notify));
+      this.listNotify.push({ ...defaultNotify, ...notify });
     }
     this.emitChange();
   }

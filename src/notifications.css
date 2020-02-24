@@ -87,7 +87,7 @@
 }
 
 .notification-info:before {
-  content: "";
+  content: "";
 }
 
 .notification-success {
@@ -95,7 +95,7 @@
 }
 
 .notification-success:before {
-  content: "";
+  content: "";
 }
 
 .notification-warning {
@@ -103,7 +103,7 @@
 }
 
 .notification-warning:before {
-  content: "";
+  content: "";
 }
 
 .notification-error {
@@ -111,5 +111,5 @@
 }
 
 .notification-error:before {
-  content: "";
+  content: "";
 }
